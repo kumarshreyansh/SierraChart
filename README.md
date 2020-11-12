@@ -6,7 +6,7 @@ Install docker engine on the newly launched EC2 instance as per docker installat
 
 Create a user named as docker user #useradd dockeruser
 
-Switch to docker user#su - dockeruser
+Switch to docker user #su - dockeruser
 
 Allow dockeruser to run docker as a non-root user#sudo usermod -aG docker dockeruser
 Save sc_build_dll.bash, launch.json, tasks.json, c_cpp_properties.json in present working directory as per the attachment
