@@ -3,8 +3,11 @@ SierraChart Setup
 Instance Ubuntu 18.04
 Setup a Security Group to allow ssh connection only from my public IP
 Install docker engine on the newly launched EC2 instance as per docker installation documentation
+
 Create a user named as docker user #useradd dockeruser
+
 Switch to docker user#su - dockeruser
+
 Allow dockeruser to run docker as a non-root user#sudo usermod -aG docker dockeruser
 Save sc_build_dll.bash, launch.json, tasks.json, c_cpp_properties.json in present working directory as per the attachment
 
